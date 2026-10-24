@@ -1,4 +1,8 @@
 import { Project, SkillItem, Certification, HackathonActivity, InterviewQA } from '../types';
+import profilePhoto from '../assets/images/profile_photo.jpeg';
+import veritasAiImg from '../assets/images/veritas_ai_project_1792828219333.jpg';
+import smartReminderImg from '../assets/images/smart_reminder_project_1792828220161.jpg';
+import dataPipelineImg from '../assets/images/data_ai_pipeline_project_1792828220602.jpg';
 
 export const PERSONAL_INFO = {
   name: "SYED ARSHAD R",
@@ -13,8 +17,8 @@ export const PERSONAL_INFO = {
   email: "syedarshadasr345@gmail.com",
   github: "https://github.com",
   linkedin: "https://linkedin.com",
-  photoPath: "/public/assets/aistudio/20251019_105754.jpg_14c2a971.jpeg",
-  resumePath: "/public/assets/aistudio/Syed_Arshad_R_Resume_my_resume_4cea0513.pdf",
+  photoPath: profilePhoto,
+  resumePath: "/Syed_Arshad_R_Resume.pdf",
   summary: "Motivated Computer Science and Engineering student specializing in Artificial Intelligence and Machine Learning at SRM Institute of Science and Technology, Vadapalani, maintaining an outstanding 9.33 CGPA. Actively preparing for internship and campus placement interviews in Software Development and AI/ML with hands-on experience in C++, Python, DSA, Veritas AI, and the Smart Reminder App.",
   careerObjective: "To secure a Software Development or AI/ML internship where I can apply my programming skills, grow technically under seasoned mentors, and contribute enthusiastically to real-world software solutions."
 };
@@ -26,7 +30,7 @@ export const PROJECTS: Project[] = [
     tagline: "AI-driven forensic evidence analysis, structuring, and anomaly intelligence platform.",
     category: "AI & Machine Learning",
     year: "2025–2026",
-    image: "/src/assets/images/veritas_ai_project_1792828219333.jpg",
+    image: veritasAiImg,
     description: "Developed a project focused on evidence intelligence, using AI to help analyse, cross-examine, and organize complex multimodal evidence documents. Veritas AI parses unstructured incident logs, flags semantic inconsistencies, and generates structured evidentiary briefs for forensic reviews.",
     highlights: [
       "Engineered automated NLP categorization for multi-page forensic reports and unstructured witness logs.",
@@ -46,7 +50,7 @@ export const PROJECTS: Project[] = [
     tagline: "Context-aware task scheduler with adaptive priority scoring and proactive notification delivery.",
     category: "Full Stack & Software",
     year: "2025",
-    image: "/src/assets/images/smart_reminder_project_1792828220161.jpg",
+    image: smartReminderImg,
     description: "Built an intelligent reminder application that helps users keep track of mission-critical tasks and daily obligations through timely, contextual reminders. Uses Object-Oriented principles to manage task states, recurrence patterns, and priority alerts.",
     highlights: [
       "Engineered an adaptive priority matrix that dynamically surfaces high-importance deadlined tasks.",
@@ -66,7 +70,7 @@ export const PROJECTS: Project[] = [
     tagline: "Autonomous visual-linguistic agent prototype designed using NVIDIA AI curriculum patterns.",
     category: "AI & Machine Learning",
     year: "2026",
-    image: "/src/assets/images/data_ai_pipeline_project_1792828220602.jpg",
+    image: dataPipelineImg,
     description: "Built following specialized training from the NVIDIA Deep Learning Institute ('Building AI Agents with Multimodal Models'). The agent coordinates vision and text understanding to interpret visual data, execute external tools, and generate verified situational insights.",
     highlights: [
       "Trained on multimodal reasoning architectures integrating visual tokens and prompt engineering protocols.",
@@ -85,7 +89,7 @@ export const PROJECTS: Project[] = [
     tagline: "ETL data pipeline and batch transformation system built during AWS Academy Virtual Internship.",
     category: "Data Engineering",
     year: "2025",
-    image: "/src/assets/images/data_ai_pipeline_project_1792828220602.jpg",
+    image: dataPipelineImg,
     description: "A robust data engineering pipeline designed to ingest raw CSV and JSON streams, normalize schema inconsistencies, handle missing telemetry values with Pandas/NumPy, and output structured analytics tables.",
     highlights: [
       "Optimized vectorized Pandas operations, accelerating data cleaning by 4.2x compared to iterrows.",
